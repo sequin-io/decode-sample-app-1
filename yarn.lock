@@ -2,10 +2,13 @@
 # yarn lockfile v1
 
 
-"@acco/decode@0.1.41":
-  version "0.1.41"
-  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.41.tgz#582360b42ac7c5cc6e13b3095788bac8f326fb86"
-  integrity sha512-BRo6fISpBCzdudRWvSD0tfFEON+Y3UChL/z0Usd/lHXNGQyz9mmiEG4LoW3wRklmEV+471v/0UmYoaO54GVczw==
+"@acco/decode@^0.1.41":
+  version "0.1.44"
+  resolved "https://registry.yarnpkg.com/@acco/decode/-/decode-0.1.44.tgz#480db3942d31fdd4b28d42c399f55816ec493727"
+  integrity sha512-uJZZNTqSZK8PBLPtS2Sp8SpmEicctnRsjfiA6IZ4v0A9qFY/VcZZVkgnbPTmNr66+HbZbWx0L0ZyQJUnoIdxHQ==
+  dependencies:
+    jshashes h2non/jshashes
+    swr "^0.2.2"
 
 "@ant-design/colors@^3.1.0":
   version "3.2.2"
@@ -6364,6 +6367,11 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
+jshashes@h2non/jshashes:
+  version "1.0.8"
+  uid "67d3f491ddd780154589b94029701ce884901200"
+  resolved "https://codeload.github.com/h2non/jshashes/tar.gz/67d3f491ddd780154589b94029701ce884901200"
+
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -10515,9 +10523,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
